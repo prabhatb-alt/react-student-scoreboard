@@ -1,4 +1,3 @@
-// src/App.jsx
 import { useState, useEffect } from 'react';
 import Header from './components/Header';
 import AddStudentForm from './components/AddStudentForm';
@@ -16,9 +15,10 @@ function App() {
 
   useEffect(() => {
     if (isLightMode) {
-      document.body.classList.add('light-mode'); } 
-    else {
-      document.body.classList.remove('light-mode');}
+      document.body.classList.add('light-mode'); 
+    } else {
+      document.body.classList.remove('light-mode');
+    }
   }, [isLightMode]);
 
   const handleAddStudent = (newStudent) => {
@@ -42,7 +42,7 @@ function App() {
       <StudentTable students={students} onUpdateScore={handleUpdateScore} />
 
       <div style={{ textAlign: 'center', marginTop: '2rem', fontSize: '0.75rem', color: 'var(--text-muted)', letterSpacing: '2px' }}>
-        <a href="https://github.com/prabhatbhata-alt" target="_blank" rel="noreferrer" style={{color: 'var(--accent-green)', textDecoration: 'none'}}>GITHUB</a>
+        <a href="https://github.com/prabhatbhatiaa" target="_blank" rel="noreferrer" style={{color: 'var(--accent-green)', textDecoration: 'none'}}>GITHUB</a>
       </div>
     </div>
   );

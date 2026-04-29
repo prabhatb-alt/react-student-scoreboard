@@ -9,8 +9,12 @@ const Header = ({ isLightMode, toggleTheme }) => {
           <span className="text">Made By Prabhat Bhatia</span>
         </div>
         
-        <button className="theme-toggle" onClick={toggleTheme}>
-          {isLightMode ? '🌙' : '☀️'}
+        <button className="theme-toggle" onClick={toggleTheme} aria-label="Toggle Theme">
+          <span 
+            className="emoji-icon" 
+            key={isLightMode ? 'dark' : 'light'} >
+            {isLightMode ? '🌙' : '☀️'}
+          </span>
         </button>
       </div>
       
