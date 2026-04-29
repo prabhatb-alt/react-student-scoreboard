@@ -81,3 +81,12 @@ body {
     transform: translateY(0);
   }
 }
+
+@media (max-width: 768px) {
+  body {
+    padding: 1rem;
+  }
+  .app-container {
+    gap: 1.5rem;
+  }
+}

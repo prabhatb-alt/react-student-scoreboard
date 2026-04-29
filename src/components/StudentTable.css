@@ -163,3 +163,18 @@
   border-color: var(--text-main);
   color: var(--text-main);
 }
+
+@media (max-width: 768px) {
+  .stats-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .table-container {
+    overflow-x: auto;
+  }
+  
+  .table-header, 
+  .table-row {
+    min-width: 550px;
+  }
+}

@@ -80,3 +80,9 @@
   color: var(--accent-green);
   text-shadow: var(--neon-glow);
 }
+
+@media (max-width: 768px) {
+  .header-title {
+    font-size: 3.5rem;
+  }
+}

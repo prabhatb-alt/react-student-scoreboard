@@ -42,7 +42,7 @@ function App() {
       <StudentTable students={students} onUpdateScore={handleUpdateScore} />
 
       <div style={{ textAlign: 'center', marginTop: '2rem', fontSize: '0.75rem', color: 'var(--text-muted)', letterSpacing: '2px' }}>
-        <a href="https://github.com/prabhatbhatiaa" target="_blank" rel="noreferrer" style={{color: 'var(--accent-green)', textDecoration: 'none'}}>GITHUB</a>
+        <a href="https://github.com/prabhatb-alt/react-student-scoreboard" target="_blank" rel="noreferrer" style={{color: 'var(--accent-green)', textDecoration: 'none'}}>GITHUB</a>
       </div>
     </div>
   );
