@@ -12,6 +12,16 @@
   --accent-red-glow: rgba(255, 71, 87, 0.15);
 }
 
+body.light-mode {
+  --bg-main: #f0f4f8;
+  --bg-card: #ffffff;
+  --border-color: #cbd5e1;
+  --text-main: #0f172a;
+  --text-muted: #64748b;
+  --accent-green-glow: rgba(0, 234, 101, 0.25);
+  --accent-red-glow: rgba(255, 71, 87, 0.25);
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -27,6 +37,7 @@ body {
   justify-content: center;
   padding: 2rem;
 }
+
 
 #root {
   width: 100%;
