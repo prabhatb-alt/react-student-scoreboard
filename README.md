@@ -1,16 +1,20 @@
-# React + Vite
+# <p align="center">React Student Scoreboard</p>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is my Web Dev Lab Assignment 3 built using React (Vite) and pure CSS.
+The project focuses on component-based architecture, state management (`useState`), dynamic props, and conditional rendering without using any external styling frameworks like Tailwind.
 
-Currently, two official plugins are available:
+<img width="2625" height="1499" alt="image" src="https://github.com/user-attachments/assets/69a54b27-118e-4852-9ffa-21565df1ea0d" />
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## What’s Inside
+- React Component Architecture
+- Global State Management for Student Records
+- Real time Stats Caculation and Updation
+- Dynamic Pass-Fail Conditional Rendering
+- Light/Dark Mode using vanilla CSS
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Details
+- Prabhat Bhatia
+- 2501410006
+- B.Tech CSE Cyber Security (Second Semester)
+- 29th April 2026
+- Web Development II (Advanced JS & React) - Lab Assignment 3
