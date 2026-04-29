@@ -1,0 +1,85 @@
+/* src/components/AddStudentForm.css */
+
+.form-section {
+  background-color: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.section-header {
+  display: flex;
+  align-items: center;
+  padding: 0.75rem 1.5rem;
+  border-bottom: 1px solid var(--border-color);
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.section-header .dot {
+  width: 8px;
+  height: 8px;
+  background-color: var(--accent-green);
+  border-radius: 50%;
+  margin-right: 10px;
+  box-shadow: 0 0 8px var(--accent-green-glow);
+}
+
+.section-header h2 {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  letter-spacing: 1.5px;
+  flex-grow: 1;
+}
+
+.section-header .sub-text {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  letter-spacing: 1px;
+}
+
+.student-form {
+  display: flex;
+}
+
+.form-input {
+  flex: 1;
+  background: transparent;
+  border: none;
+  border-right: 1px solid var(--border-color);
+  padding: 1.5rem;
+  color: var(--text-main);
+  font-size: 0.9rem;
+  outline: none;
+  transition: background-color 0.2s;
+}
+
+.form-input::placeholder {
+  color: var(--text-muted);
+}
+
+.form-input:focus {
+  background-color: rgba(255, 255, 255, 0.02);
+}
+
+/* Hide the up/down arrows on number inputs for a cleaner look */
+.form-input[type="number"]::-webkit-inner-spin-button,
+.form-input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.submit-btn {
+  background: transparent;
+  border: none;
+  padding: 0 2rem;
+  color: var(--accent-green);
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.submit-btn:hover {
+  background-color: var(--accent-green-glow);
+  text-shadow: 0 0 10px var(--accent-green);
+}
