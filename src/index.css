@@ -1,0 +1,40 @@
+:root {
+  --bg-main: #0a0e14;
+  --bg-card: #151a21;
+  --border-color: #2a313c;
+  
+  --text-main: #e0e6ed;
+  --text-muted: #75808f;
+  
+  --accent-green: #00ea65;
+  --accent-green-glow: rgba(0, 234, 101, 0.15);
+  --accent-red: #ff4757;
+  --accent-red-glow: rgba(255, 71, 87, 0.15);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+  background-color: var(--bg-main);
+  color: var(--text-main);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+}
+
+#root {
+  width: 100%;
+  max-width: 900px;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
