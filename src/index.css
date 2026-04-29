@@ -15,6 +15,7 @@
   
   --neon-glow: 0 0 5px rgba(0, 243, 196, 0.8), 0 0 20px rgba(0, 243, 196, 0.5), 0 0 40px rgba(0, 243, 196, 0.3);
   --header-bg: rgba(0, 0, 0, 0.2);
+  --grid-color: rgba(0, 243, 196, 0.03);
 }
 
 body.light-mode {
@@ -32,6 +33,7 @@ body.light-mode {
   
   --neon-glow: none;
   --header-bg: #f8fafc;
+  --grid-color: rgba(0, 0, 0, 0.04);
 }
 
 * {
@@ -44,6 +46,11 @@ body.light-mode {
 
 body {
   background-color: var(--bg-main);
+  background-image: 
+    linear-gradient(var(--grid-color) 1px, transparent 1px),
+    linear-gradient(90deg, var(--grid-color) 1px, transparent 1px);
+  background-size: 40px 40px;
+  background-position: center top;
   color: var(--text-main);
   min-height: 100vh;
   display: flex;

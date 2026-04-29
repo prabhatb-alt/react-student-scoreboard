@@ -33,6 +33,7 @@
   font-size: 2rem;
   font-weight: bold;
 }
+
 .table-container {
   background-color: var(--bg-card);
   border: 1px solid var(--border-color);

@@ -10,6 +10,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  height: 40px; 
 }
 
 .header-eyebrow {
@@ -30,18 +31,28 @@
 .theme-toggle {
   background: transparent;
   border: none;
-  font-size: 1.5rem;
   cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
   padding: 0;
   outline: none;
+  transition: background-color 0.2s ease;
+}
+
+.theme-toggle:hover {
+  background-color: rgba(255, 255, 255, 0.05);
 }
 
 .emoji-icon {
+  width: 22px;
+  height: 22px;
   display: inline-block;
   animation: smoothSwap 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
+  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.4));
 }
 
 @keyframes smoothSwap {
@@ -57,9 +68,9 @@
 
 .header-title {
   font-family: 'Bebas Neue', sans-serif;
-  font-size: 4.5rem;
+  font-size: 5rem;
   font-weight: 400;
-  letter-spacing: 3px;
+  letter-spacing: -1px;
   color: var(--text-main);
   line-height: 1;
 }

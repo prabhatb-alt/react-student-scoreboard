@@ -11,9 +11,8 @@ const StudentRow = ({ student, onUpdateScore }) => {
 
     const handleSave = () => {
         const parsedScore = parseInt(editScore, 10);
-        // Validate before sending up
         if (!isNaN(parsedScore) && parsedScore >= 0 && parsedScore <= 100) {
-        onUpdateScore(student.id, parsedScore);
+            onUpdateScore(student.id, parsedScore);
         }
     };
 
