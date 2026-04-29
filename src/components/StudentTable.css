@@ -16,7 +16,7 @@
 
 .stat-card {
   background-color: var(--bg-card);
-  padding: 1.5rem;
+  padding: 2rem;
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
@@ -24,13 +24,13 @@
 
 .stat-label {
   color: var(--text-muted);
-  font-size: 0.75rem;
+  font-size: 0.85rem;
   letter-spacing: 2px;
 }
 
 .stat-value {
   color: var(--accent-green);
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-weight: bold;
 }
 
@@ -43,18 +43,18 @@
 .table-header {
   display: grid;
   grid-template-columns: 2fr 1fr 1fr 1.5fr;
-  padding: 1rem 1.5rem;
+  padding: 1.25rem 2rem;
   border-bottom: 1px solid var(--border-color);
   background-color: var(--header-bg);
   color: var(--text-muted);
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   letter-spacing: 1.5px;
 }
 
 .table-row {
   display: grid;
   grid-template-columns: 2fr 1fr 1fr 1.5fr;
-  padding: 1rem 1.5rem;
+  padding: 1.25rem 2rem;
   align-items: center;
   border-bottom: 1px solid var(--border-color);
   transition: background-color 0.2s;
@@ -80,16 +80,16 @@
 .highlight-score {
   color: #ffb86c;
   font-weight: bold;
-  font-size: 1.1rem;
+  font-size: 1.25rem;
 }
 
 .status-badge {
   display: inline-flex;
   align-items: center;
   gap: 6px;
-  padding: 4px 10px;
+  padding: 5px 12px;
   border-radius: 4px;
-  font-size: 0.75rem;
+  font-size: 0.8rem;
   letter-spacing: 1px;
   border: 1px solid transparent;
 }
@@ -128,14 +128,15 @@
 }
 
 .update-input {
-  width: 60px;
+  width: 70px;
   background-color: var(--bg-main);
   border: 1px solid var(--border-color);
   color: var(--text-main);
-  padding: 5px;
+  padding: 8px;
   text-align: center;
   border-radius: 4px;
   outline: none;
+  font-size: 0.9rem;
 }
 
 .update-input:focus {
@@ -152,10 +153,10 @@
   background: transparent;
   border: 1px solid var(--border-color);
   color: var(--text-muted);
-  padding: 5px 12px;
+  padding: 8px 16px;
   border-radius: 4px;
   cursor: pointer;
-  font-size: 0.75rem;
+  font-size: 0.85rem;
   transition: all 0.2s;
 }
 
@@ -175,6 +176,6 @@
   
   .table-header, 
   .table-row {
-    min-width: 550px;
+    min-width: 600px;
   }
 }

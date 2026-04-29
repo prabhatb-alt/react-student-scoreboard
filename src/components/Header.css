@@ -18,7 +18,7 @@
   align-items: center;
   gap: 10px;
   color: var(--accent-green);
-  font-size: 0.75rem;
+  font-size: 0.85rem;
   letter-spacing: 2px;
 }
 
@@ -48,8 +48,8 @@
 }
 
 .emoji-icon {
-  width: 22px;
-  height: 22px;
+  width: 24px;
+  height: 24px;
   display: inline-block;
   animation: smoothSwap 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
   filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.4));
@@ -68,9 +68,9 @@
 
 .header-title {
   font-family: 'Bebas Neue', sans-serif;
-  font-size: 5rem;
+  font-size: 6rem;
   font-weight: 400;
-  letter-spacing: -1px;
+  letter-spacing: -2px;
   color: var(--text-main);
   line-height: 1;
 }
@@ -83,6 +83,6 @@
 
 @media (max-width: 768px) {
   .header-title {
-    font-size: 3.5rem;
+    font-size: 4rem;
   }
 }
